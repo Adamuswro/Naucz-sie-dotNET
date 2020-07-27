@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 15 for Windows Desktop
 VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1", "TaskSolutions\1.csproj", "{063AD9B9-B9A9-4D4E-8686-97A97DE2D3EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 THREE SUM CONDITION", "TaskSolutions\1 THREE SUM CONDITION.csproj", "{063AD9B9-B9A9-4D4E-8686-97A97DE2D3EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2", "2\2.csproj", "{9D7789F0-93EC-42F9-8952-58D60CEB6E69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 ADDING STEP BY STEP", "2\2 ADDING STEP BY STEP.csproj", "{9D7789F0-93EC-42F9-8952-58D60CEB6E69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7", "7\7.csproj", "{94CE2004-A533-4AD3-BEF7-9EDB7A128704}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 LINQ", "7\7 LINQ.csproj", "{94CE2004-A533-4AD3-BEF7-9EDB7A128704}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
