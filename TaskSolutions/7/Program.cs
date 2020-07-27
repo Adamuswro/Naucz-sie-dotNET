@@ -30,7 +30,8 @@ namespace _7
             Console.WriteLine($"{String.Join(", ", people1.Select(p=>p.FullName))}");
             
             //Napisz LINQ które zwróci pierwszą osobę starszą niż 40 lat ze zbioru posegregowanego odwrotnie alfabetycznie (Z -> A) wg. imienia
-            var person2 = people.OrderByDescending(p=>p.FirstName).Where(p=>p.Age>40).FirstOrDefault();
+
+            var person2 = people.Where(p=>p.Age>40).OrderByDescending(p => p.FirstName).FirstOrDefault();
 
             Console.WriteLine("Pierwsza osoba powyżej 40 lat to: " + person2.ToString());
 
