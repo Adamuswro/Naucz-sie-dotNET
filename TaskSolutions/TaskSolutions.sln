@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8 TABLE IN LINQ", "8 TABLE 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 QUIZ", "13 QUIZ\13 QUIZ.csproj", "{CDABB877-67F0-4D7C-B207-A9AE0ADB55B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 INT CONNECTION", "15 INT CONNECTION\15 INT CONNECTION.csproj", "{64C846C9-0045-44FF-99ED-FF3A2875B4C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CDABB877-67F0-4D7C-B207-A9AE0ADB55B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDABB877-67F0-4D7C-B207-A9AE0ADB55B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDABB877-67F0-4D7C-B207-A9AE0ADB55B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C846C9-0045-44FF-99ED-FF3A2875B4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C846C9-0045-44FF-99ED-FF3A2875B4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C846C9-0045-44FF-99ED-FF3A2875B4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C846C9-0045-44FF-99ED-FF3A2875B4C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
