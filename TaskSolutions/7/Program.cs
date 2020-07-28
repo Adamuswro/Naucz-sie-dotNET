@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 namespace _7
 {
+    //All classes should be placed in seperated files, but beacouse code is very simple it was decided to keep it in one file.
     class Program
     {
         static void Main(string[] args)
@@ -21,7 +22,6 @@ namespace _7
             new Person("Jan","Janowski", 58),
             new Person("Paweł","Pawelski", 84 ),
             new Person("Zbigniew","Hołdys", 19 ),
-
         };
 
             //Napisz LINQ które zwróci osoby których nazwisko rozpoczyna się na literę M
