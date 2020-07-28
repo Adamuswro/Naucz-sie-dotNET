@@ -6,7 +6,7 @@ using System.Linq;
 namespace _8_TABLE_IN_LINQ
 {
     //All classes should be placed in seperated files, but beacouse code is very simple it was decided to keep it in one file.
-    class Program
+    class Program_8
     {
         static void Main(string[] args)
         {

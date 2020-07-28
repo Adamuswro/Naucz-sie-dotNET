@@ -6,7 +6,7 @@ using System.IO;
 namespace _13_QUIZ
 {
     //All classes should be placed in seperated files, but beacouse code is very simple it was decided to keep it in one file.
-    class Program
+    class Program_13
     {
         static void Main(string[] args)
         {
@@ -72,7 +72,7 @@ namespace _13_QUIZ
 
     class QuizManager
     {
-        private int roundsLeft = 4;
+        private int roundsLeft = 5;
         private int goodAnswers = 0;
         private int wrongAnswers = 0;
         private Queue<Question> allQuestions;
@@ -86,10 +86,12 @@ namespace _13_QUIZ
                 if (AskQuestion() == true)
                 {
                     goodAnswers++;
+                    Console.WriteLine("Good answer!");
                 }
                 else
                 {
                     wrongAnswers++;
+                    Console.WriteLine("Wrong answer...");
                 }
 
                 roundsLeft--;
@@ -124,7 +126,8 @@ namespace _13_QUIZ
 
         private void ShowScore()
         {
-            Console.WriteLine($"Score: {goodAnswers}/{goodAnswers + wrongAnswers}");
+            int goodAnswersInProcentage = (int)((double)goodAnswers / (goodAnswers + wrongAnswers) * 100) ;
+            Console.WriteLine($"Score: {goodAnswersInProcentage}%");
         }
 
     }

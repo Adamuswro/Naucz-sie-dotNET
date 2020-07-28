@@ -4,7 +4,7 @@ using System.Linq;
 namespace _7
 {
     //All classes should be placed in seperated files, but beacouse code is very simple it was decided to keep it in one file.
-    class Program
+    class Program_7
     {
         static void Main(string[] args)
         {
