@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Helpers;
 
 namespace _15_INT_CONNECTION
 {
@@ -9,15 +10,15 @@ namespace _15_INT_CONNECTION
         static void Main(string[] args)
         {
             List<int> input = ConvertInput(args);
-
+            
             if (input == null || input.Count == 0)
             {
-                CloseProgram($"Error. Wrong input. (Input: {String.Join(" ", args)})");
+                ConsoleTools.CloseProgram($"Error. Wrong input. (Input: {String.Join(" ", args)})");
 
             }
             else if (isMoreThanTenDgits(input) == true)
             {
-                CloseProgram($"Too many digits, result is out of int type size.");
+                ConsoleTools.CloseProgram($"Too many digits, result is out of int type size.");
             }
             var sortedFromMax = input.
                 OrderByDescending(p => GetDigitFromLeft(p, 1)).
@@ -37,7 +38,7 @@ namespace _15_INT_CONNECTION
 
             if (Int32.TryParse(String.Join("", sortedFromMin), out int min) == false)
             {
-                CloseProgram($"Min number is out of int type size.");
+                ConsoleTools.CloseProgram($"Min number is out of int type size.");
             }
 
             if (Int32.TryParse(String.Join("", sortedFromMax), out int max) == false)
@@ -68,7 +69,7 @@ namespace _15_INT_CONNECTION
             Console.WriteLine($"Max {max}");
             Console.WriteLine($"Min {min}");
 
-            CloseProgram();
+            ConsoleTools.CloseProgram();
         }
 
         private static int LeftToMax(int input)
@@ -80,15 +81,7 @@ namespace _15_INT_CONNECTION
             return max - input;
         }
 
-        private static void CloseProgram(string message = "")
-        {
-            if (String.IsNullOrEmpty(message) == false)
-            {
-                Console.WriteLine(message);
-            }
-            Console.ReadLine();
-            Environment.Exit(0);
-        }
+
 
         private static bool isMoreThanTenDgits(List<int> input)
         {
