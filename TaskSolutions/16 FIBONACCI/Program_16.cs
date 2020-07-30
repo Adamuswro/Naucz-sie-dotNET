@@ -12,7 +12,7 @@ namespace _16_FIBONACCI
             if (uint.TryParse(args[0], out uint input) == false || input == 0)
                 ConsoleTools.CloseProgram("Wrong input. Enter the number of elements of Fibbonaci Series (positive number).");
 
-            Console.WriteLine($"Input arguments: {String.Join(" ", args)}");
+            Console.WriteLine($"Input argument: {String.Join(" ", args)}");
 
             Console.WriteLine(String.Join("", GetFibbonaciSeries(input)));
 
@@ -37,7 +37,7 @@ namespace _16_FIBONACCI
             else if (FibbonaciSeries.Sum() == 0)
                 FibbonaciSeries.Add(1);
             else
-                FibbonaciSeries.Add(FibbonaciSeries.Sum());
+                FibbonaciSeries.Add(FibbonaciSeries.Last() + FibbonaciSeries[FibbonaciSeries.Count-2]);
             
             return GetNext(--currentIndex, FibbonaciSeries);
         }
