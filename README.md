@@ -56,3 +56,36 @@ Po każdym pytaniu gracz od razu dostaje informację, czy odpowiedział dobrze, 
 Na koniec gry gracz dostaje swój wynik wyrażony w procentach.
 Pytania wraz z odpowiedziami definiujemy w kodzie. Chyba że ktoś jest bardzo ambitny, to możemy zrobić mini bazę danych w pliku (w dowolnej formie: JSON, CSV, whatever).
 Mam nadzieję, że to Wam zajmie ciekawie weekend 🙂
+
+# 15 Łączenie intów
+Zadanie:
+Napisz program konsolowy, w którym w argumentach programu podana zostanie lista liczb naturalnych.
+Połącz liczby w taki sposób, aby powstała najmniejsza i największa możliwa liczba.
+Przykład:
+Wejście - 50, 9, 2, 1
+Poprawny wynik - Min. 12509; Max. 95021
+Podpowiedź do poprawnego wykonania:
+Sprawdź, czy połączone liczby na pewno zmieszczą się w typie int.
+
+# 16 Fibonacci
+Coś, co każdy programista musi chociaż raz napisać w swojej karierze
+Zadanie:
+Napisz program konsolowy, który wypisze pierwsze n liczb ciągu Fibonacciego, gdzie n zostanie podane w argumentach aplikacji.
+Załóż, że pierwszymi liczbami ciągu jest 0 i 1.
+Przykład:
+Wejście - 10
+Poprawny wynik - 0 1 1 2 3 5 8 13 21 34
+
+# 20 Full
+Nowy tydzień to nowe rozdanie. A jak nowe rozdanie to zagrajmy w karty.
+Zadanie:
+Napisz program konsolowy, który będzie w stanie na podstawie podanych w pliku listy rąk pokerowych wyświetlić na ekranie ręce, w których jest FULL.
+Dla osób niegrających w karty. Jedna ręka to pięć różnych kart.
+FULL to ręka, w której mamy 3 karty z jedną wartością i 2 karty z drugą wartością.
+Wszystkie operacje na obiektach należy wykonywać za pomocą LINQ.
+Przykład:
+Mamy podaną listę rąk przedzielonych średnikiem:
+"4♣ 5♦ 6♦ 7♠ 10♥;10♣ Q♥ 10♠ Q♠ 10♦;6♣ 6♥ 6♠ A♠ 6♦;2♣ 3♥ 3♠ 2♠ 2♦;2♣ 3♣ 4♣ 5♠ 6♠".
+Wyświetl na ekranie:
+10♣ Q♥ 10♠ Q♠ 10♦
+2♣ 3♥ 3♠ 2♠ 2♦
