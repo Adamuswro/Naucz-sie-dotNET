@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace _8_TABLE_IN_LINQ
+namespace _8TableInLINQ
 {
     //All classes should be placed in seperated files, but beacouse code is very simple it was decided to keep it in one file.
-    class Program_8
+    class Program8
     {
         static void Main(string[] args)
         {

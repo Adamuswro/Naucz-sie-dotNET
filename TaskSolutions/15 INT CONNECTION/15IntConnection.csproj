@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{063AD9B9-B9A9-4D4E-8686-97A97DE2D3EC}</ProjectGuid>
+    <ProjectGuid>{64C846C9-0045-44FF-99ED-FF3A2875B4C8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TaskSolutions</RootNamespace>
-    <AssemblyName>1</AssemblyName>
+    <RootNamespace>_15IntConnection</RootNamespace>
+    <AssemblyName>15IntConnection</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program_1.cs" />
+    <Compile Include="Program15.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Helpers\Helpers.csproj">
+      <Project>{030a5eb6-634c-4769-a56b-b97df39cac13}</Project>
+      <Name>Helpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

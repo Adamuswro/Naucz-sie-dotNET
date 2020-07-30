@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace _16_FIBONACCI
+namespace _16Fibonacci
 {
-    public class Program_16
+    public class Program16
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             if (uint.TryParse(args[0], out uint input) == false || input == 0)
                 ConsoleTools.CloseProgram("Wrong input. Enter the number of elements of Fibbonaci Series (positive number).");

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _2
+namespace _2AddingStepByStep
 {
-    class Program_2
+    class Program2
     {
         static void Main(string[] args)
         {

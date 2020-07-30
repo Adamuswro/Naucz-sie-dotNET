@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace _13_QUIZ
+namespace _13Quiz
 {
     //All classes should be placed in seperated files, but beacouse code is very simple it was decided to keep it in one file.
     class Program_13

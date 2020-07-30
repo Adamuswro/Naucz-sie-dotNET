@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-namespace _7
+namespace _7LINQ
 {
     //All classes should be placed in seperated files, but beacouse code is very simple it was decided to keep it in one file.
-    class Program_7
+    class Program7
     {
         static void Main(string[] args)
         {

@@ -1,6 +1,6 @@
 ﻿using System;
 using Xunit;
-using _16_FIBONACCI;
+using _16Fibonacci;
 using System.Collections.Generic;
 
 namespace Tests
@@ -13,9 +13,10 @@ namespace Tests
             uint input = 5;
             List<int> expected = new List<int>() { 0, 1, 1, 2, 4 };
 
-            var actual = Program_16.GetFibbonaciSeries(input);
+            var actual = Program16.GetFibbonaciSeries(input);
 
             Assert.Equal(expected, actual);
         }
+
     }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Helpers;
 
-namespace _15_INT_CONNECTION
+namespace _15IntConnection
 {
-    class Program_15
+    class Program15
     {
         static void Main(string[] args)
         {
