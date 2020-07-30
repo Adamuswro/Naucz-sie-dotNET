@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="_21PowerValidatorTest.cs" />
     <Compile Include="_16FibonacciTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -76,6 +77,10 @@
     <ProjectReference Include="..\16 FIBONACCI\16Fibonacci.csproj">
       <Project>{0b95c3f5-dba8-46d8-b256-63a850ca4f57}</Project>
       <Name>16Fibonacci</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\21PowerValidator\21PowerValidator.csproj">
+      <Project>{ee63850b-fc97-44d3-a6ef-0bb77460e9a7}</Project>
+      <Name>21PowerValidator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
