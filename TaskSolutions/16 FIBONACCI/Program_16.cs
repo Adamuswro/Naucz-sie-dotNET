@@ -10,12 +10,11 @@ namespace _16_FIBONACCI
         static void Main(string[] args)
         {
             if (uint.TryParse(args[0], out uint input) == false || input == 0)
-            {
                 ConsoleTools.CloseProgram("Wrong input. Enter the number of elements of Fibbonaci Series (positive number).");
-            }
+
             Console.WriteLine($"Input arguments: {String.Join(" ", args)}");
 
-            Console.WriteLine(GetFibbonaciSeries(input));
+            Console.WriteLine(String.Join("", GetFibbonaciSeries(input)));
 
             ConsoleTools.CloseProgram();
         }
@@ -23,19 +22,14 @@ namespace _16_FIBONACCI
         public static List<int> GetFibbonaciSeries(uint elements)
         {
             if (elements == 0)
-            {
                 return new List<int>();
-            }
             
             return GetNext(Convert.ToInt32(elements), new List<int>());
         }
 
-        static List<int> GetNext(int index, List<int> FibbonaciSeries)
+        private static List<int> GetNext(int currentIndex, List<int> FibbonaciSeries)
         {
-            if (FibbonaciSeries == null)
-                FibbonaciSeries = new List<int>();
-
-            if (index < 1)
+            if (currentIndex < 1)
                 return FibbonaciSeries;
 
             if (FibbonaciSeries.Any() == false)
@@ -45,7 +39,7 @@ namespace _16_FIBONACCI
             else
                 FibbonaciSeries.Add(FibbonaciSeries.Sum());
             
-            return GetNext(--index, FibbonaciSeries);
+            return GetNext(--currentIndex, FibbonaciSeries);
         }
     }
 }
