@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace _25FactoryMethod
 {
@@ -9,11 +10,12 @@ namespace _25FactoryMethod
 
         public void Print()
         {
-            System.Console.WriteLine($"Story written by: {Author}");
+            System.Console.WriteLine($"--------Story written by: {Author}--------4");
             foreach (var page in Pages)
             {
                 System.Console.WriteLine(page);
             }
+            System.Console.WriteLine(Environment.NewLine);
         }
     }
 }
