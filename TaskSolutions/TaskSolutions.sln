@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 15 for Windows Desktop
-VisualStudioVersion = 15.0.28307.1000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1ThreeSumCondition", "TaskSolutions\1ThreeSumCondition.csproj", "{063AD9B9-B9A9-4D4E-8686-97A97DE2D3EC}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24RobotsFactory", "24RobotsFactory\24RobotsFactory.csproj", "{39A06BEE-46B9-4C71-8BE7-8A913B1D79BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25FactoryMethod", "25FactoryMethod\25FactoryMethod.csproj", "{8566325F-A5C0-4E7B-95E5-6CA165677595}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26BeautySalon", "Program26\26BeautySalon.csproj", "{D278C8C1-0D20-4944-B010-BE4FEAE5DA51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{8566325F-A5C0-4E7B-95E5-6CA165677595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8566325F-A5C0-4E7B-95E5-6CA165677595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8566325F-A5C0-4E7B-95E5-6CA165677595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D278C8C1-0D20-4944-B010-BE4FEAE5DA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D278C8C1-0D20-4944-B010-BE4FEAE5DA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D278C8C1-0D20-4944-B010-BE4FEAE5DA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D278C8C1-0D20-4944-B010-BE4FEAE5DA51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
