@@ -6,7 +6,7 @@ https://www.facebook.com/groups/519961228689021/post_tags?post_tag_id=5266139346
 
 Performed tasks are pasted below.
 
-# 1
+# [1](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/TaskSolutions)
 Problem:  
 W teorii złożoności obliczeniowej występuje problem 3SUM. Stawiane jest pytanie: czy w ciągu n liczb całkowitych znajdują się takie 3 których suma jest równa zero?
 Przykład:  
@@ -21,7 +21,7 @@ Napisz funkcję która przyjmie tablicę liczb całkowitych i zwróci wszystkie 
 Dla chętnych:  
 Napisz test jednostkowy sprawdzający czy funkcja spełnia swoje zadanie.  
 
-# 2 DODAWANIE NA PIECHOTĘ
+# [2 DODAWANIE NA PIECHOTĘ](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/2)
 Napisz funkcję, która przyjmie jako parametr tablicę liczb.  
 Zsumuj je wszystkie jednak wykonaj działanie po kolei sumując kolejne liczby. Po każdym kroku wyświetl sumę cząstkową na ekranie.  
 PRZYKŁAD  
@@ -35,19 +35,19 @@ Na wyjściu wyświetl:
 40  
 42  
 
-# 7 LINQ
+# [7 LINQ](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/7)
 Dzisiaj nadal ćwiczymy LINQ.  
 Przygotowałem dla Was kod 🙂  
 https://pastebin.com/zQg9ehJs  
 Całe zadanie jest w komentarzach. Myślę, że powinno być wszystko jasne.  
 
-# 8 TABELA W LINQ
+# [8 TABELA W LINQ](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/8%20TABLE%20IN%20LINQ)
 Ha to Was zaskoczyłem tytułem co? Tabela? W LINQ? O .... chodzi 🙂  
 A no chodzi o to, że jak mamy tabelę powiedzmy z 1000 wyników, to bardzo kiepsko byłoby to wyświetlać na jednej stronie.  
 Dlatego też wprowadza się coś, co po polsku brzmi bardzo dziwnie, czyli paginacja 🙂 Najprościej rzecz ujmując, zakładamy na przykład, że na jednej stronie wyświetlać się będzie 25 elementów. No właśnie. W związku z tym zadanie na dzisiaj.  
 Napisz metodę, która przyjmie ilość elementów na stronie i numer strony, którą użytkownik chce wyświetlić. Metoda ma zwrócić z kolekcji studentów ich imię, nazwisko, semestr studiów i kierunek, na którym studiują.  
 
-# 13 QUIZ
+# [13 QUIZ](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/13%20QUIZ)
 Wierzę w Was bardzo więc rzućmy się na nieco głębszą wodę 🙂  
 Zróbcie aplikację konsolową, która będzie gra w Quiz. Co potrzebujemy?  
 Aplikacja konsolowa  
@@ -58,7 +58,7 @@ Na koniec gry gracz dostaje swój wynik wyrażony w procentach.
 Pytania wraz z odpowiedziami definiujemy w kodzie. Chyba że ktoś jest bardzo ambitny, to możemy zrobić mini bazę danych w pliku (w dowolnej formie: JSON, CSV, whatever).  
 Mam nadzieję, że to Wam zajmie ciekawie weekend 🙂  
 
-# 15 Łączenie intów
+# [15 Łączenie intów](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/15%20INT%20CONNECTION)
 Zadanie:  
 Napisz program konsolowy, w którym w argumentach programu podana zostanie lista liczb naturalnych.  
 Połącz liczby w taki sposób, aby powstała najmniejsza i największa możliwa liczba.  
@@ -68,7 +68,7 @@ Poprawny wynik - Min. 12509; Max. 95021
 Podpowiedź do poprawnego wykonania:  
 Sprawdź, czy połączone liczby na pewno zmieszczą się w typie int.  
 
-# 16 Fibonacci
+# [16 Fibonacci](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/16%20FIBONACCI)
 Coś, co każdy programista musi chociaż raz napisać w swojej karierze  
 Zadanie:  
 Napisz program konsolowy, który wypisze pierwsze n liczb ciągu Fibonacciego, gdzie n zostanie podane w argumentach aplikacji.  
@@ -77,7 +77,7 @@ Przykład:
 Wejście - 10  
 Poprawny wynik - 0 1 1 2 3 5 8 13 21 34  
 
-# 20 Full
+# [20 Full](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/20Full)
 Nowy tydzień to nowe rozdanie. A jak nowe rozdanie to zagrajmy w karty.  
 Zadanie:  
 Napisz program konsolowy, który będzie w stanie na podstawie podanych w pliku listy rąk pokerowych   wyświetlić na ekranie ręce, w których jest FULL.  
@@ -91,7 +91,7 @@ Wyświetl na ekranie:
 10♣ Q♥ 10♠ Q♠ 10♦  
 2♣ 3♥ 3♠ 2♠ 2♦  
 
-# 21 PowerValidator
+# [21 PowerValidator](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/21PowerValidator)
 Stwórz funkcję, która przyjmie dwie listy:
 IEnumerable<int> numbers
 IEnumerable<int> squares
@@ -103,13 +103,13 @@ zwróci true
 numbers {1,2,3,4,5} squares {2,2,9,16,25}
 zwróci false
 
-# 24 RobotsFactory
+# [24 RobotsFactory](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/24RobotsFactory)
 Jesteś w fabryce robotów. Każdy robot kiedy schodzi z taśmy produkcyjnej, ma swoje określone parametry i nazwę.
 Stwórz więc program, który będzie tworzył obiekty robotów z unikalną nazwą składającą się z dwóch liter i trzech cyfr, a także nadający losowo jeden z trzech parametrów (Translator, CoffeeMaking, Bartender).
 Czasem jednak potrzeba robot przywrócić do ustawień fabrycznych. W takiej sytuacji robot powinien zresetować swoją nazwę i powinna zostać mu nadana kolejna. Parametry powinny pozostać bez zmian.
 Pamiętaj jednak, że tworzenie losowych nazw może spowodować kolizję w unikalności. Zabezpiecz program tak, aby raz wykorzystana nazwa nigdy nie została użyta ponownie.
 
-# 25 FactoryMethod
+# [25 FactoryMethod](https://github.com/Adamuswro/Naucz-sie-dotNET/tree/master/TaskSolutions/25FactoryMethod)
 Mam dla Ciebie wyjątkowe zadanie. Wejdź na tą stronę: https://refactoring.guru/design-patterns/factory-method
 Przeczytaj dokładnie opis wzorca projektowego Metody wytwórczej. Jest to jeden ze wzorców opisanych przez tzw. Gang of Four wiele lat temu.
 Przeczytaj i zrozum, do czego się go używa, a następnie:
