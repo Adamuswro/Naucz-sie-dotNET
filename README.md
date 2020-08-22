@@ -90,3 +90,29 @@ Mamy podaną listę rąk przedzielonych średnikiem:
 Wyświetl na ekranie:  
 10♣ Q♥ 10♠ Q♠ 10♦  
 2♣ 3♥ 3♠ 2♠ 2♦  
+
+# 21 PowerValidator
+Stwórz funkcję, która przyjmie dwie listy:
+IEnumerable<int> numbers
+IEnumerable<int> squares
+Niech funkcja zwróci true jeśli elementy z pierwszej listy podniesione do kwadratu będą odpowiadały wartościom na tych samych pozycjach w drugiej liście.
+Nie używaj pętl. Dozwolony jest tylko LINQ.
+Przykład:
+numbers {1,2,3,4,5} squares {1,4,9,16,25}
+zwróci true
+numbers {1,2,3,4,5} squares {2,2,9,16,25}
+zwróci false
+
+# 24 RobotsFactory
+Jesteś w fabryce robotów. Każdy robot kiedy schodzi z taśmy produkcyjnej, ma swoje określone parametry i nazwę.
+Stwórz więc program, który będzie tworzył obiekty robotów z unikalną nazwą składającą się z dwóch liter i trzech cyfr, a także nadający losowo jeden z trzech parametrów (Translator, CoffeeMaking, Bartender).
+Czasem jednak potrzeba robot przywrócić do ustawień fabrycznych. W takiej sytuacji robot powinien zresetować swoją nazwę i powinna zostać mu nadana kolejna. Parametry powinny pozostać bez zmian.
+Pamiętaj jednak, że tworzenie losowych nazw może spowodować kolizję w unikalności. Zabezpiecz program tak, aby raz wykorzystana nazwa nigdy nie została użyta ponownie.
+
+# 25 FactoryMethod
+Mam dla Ciebie wyjątkowe zadanie. Wejdź na tą stronę: https://refactoring.guru/design-patterns/factory-method
+Przeczytaj dokładnie opis wzorca projektowego Metody wytwórczej. Jest to jeden ze wzorców opisanych przez tzw. Gang of Four wiele lat temu.
+Przeczytaj i zrozum, do czego się go używa, a następnie:
+Stwórz aplikację konsolową, która pomoże w tworzeniu dokumentów. Chcemy tworzyć dokumenty różnych typów (jak na przykład CV, Raport, Opowiadanie). Każdy typ dokumentu musi składać się z konkretnych stron (np. CV składa się ze strony z umiejętnościami, doświadczeniem, edukacją i danymi osobowymi, a Opowiadanie składa się ze strony ze wstępem, rozwinięciem i zakończeniem).
+Przemyśl odpowiednio strukturę klas do rozwiązania tego zadania.
+(dane strony powinny jedynie wyświetlać się na ekranie jako nazwa strony np. "Strona umiejętności")
